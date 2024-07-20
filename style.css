@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container>* {
+    width: 150px;
+    height: 100px;
+    background-color: blueviolet;
+    color: #fff;
+    margin: 100px;
+}
+
+.rotateX {
+    transform: rotateX(115deg)
+}
+
+.rotateY {
+    transform: rotateY(115deg);
+}
+
+.rotateZ {
+    transform: rotateZ(115deg);
+}
